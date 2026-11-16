@@ -1,1 +1,51 @@
-/* Add your custom styles here. See the docs for help: https://plugins.remnote.com/custom-css */
+/* NOTION INVERTED — REMNOTE */
+
+/* COLOUR PALETTE */
+:root {
+  --notion-white: #FFFFFF;
+  --notion-beige: #F1EEE6;
+  --notion-text: #37352F;
+  --notion-secondary: #787774;
+  --notion-divider: #E9E7E1;
+  --notion-hover: #F1F0ED;
+}
+
+/* WHITE SIDEBAR */
+#app,
+.sidebar,
+#sidebar {
+  background-color: var(--notion-white) !important;
+}
+
+/* BEIGE DOCUMENT PAPER */
+.editor,
+.rem-container,
+.document,
+#editor,
+.ProseMirror {
+  background-color: var(--notion-beige) !important;
+}
+
+/* TEXT COLOUR */
+.ProseMirror,
+.ProseMirror p,
+.ProseMirror li {
+  color: var(--notion-text);
+}
+
+/* SECONDARY TEXT */
+.ProseMirror .placeholder {
+  color: var(--notion-secondary);
+}
+
+/* DIVIDERS */
+hr,
+.divider {
+  border-color: var(--notion-divider) !important;
+}
+
+/* HOVER EFFECTS */
+.sidebar button:hover,
+.sidebar a:hover {
+  background-color: var(--notion-hover) !important;
+}
