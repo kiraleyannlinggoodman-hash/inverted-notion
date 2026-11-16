@@ -1,17 +1,17 @@
 {
   "manifestVersion": 1,
-  "id": "YOUR_SNIPPET_ID",
-  "name": "YOUR_SNIPPET_NAME",
-  "author": "YOUR_NAME",
-  "repoUrl": "",
+  "id": "inverted-notion",
+  "name": "inverted notion",
+  "author": "Kira",
+  "repoUrl": "https://github.com/kiraleyannlinggoodman-hash/inverted-notion",
   "version": {
-    "major": 0,
+    "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 0
   },
   "theme": [],
   "enableOnMobile": false,
-  "description": "YOUR_SNIPPET_DESCRIPTION",
+  "description": "A minimalist Notion-inspired RemNote theme with a clean white sidebar and warm beige document paper.",
   "requestNative": false,
   "requiredScopes": [
     {
